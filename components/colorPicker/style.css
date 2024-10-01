@@ -1,0 +1,33 @@
+@import url('https://fonts.bunny.net/css?family=barlow:400&display=swap');
+
+html {
+	font-family: 'barlow', sans-serif;
+}
+
+body {
+	height: 100vh;
+	font-size: 2rem;
+	font-weight: 400;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.column {
+	align-self: center;
+	width: 50%;
+	text-align: center;
+}
+
+#colorscontent {
+	text-align: left;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.container .IroColorPicker {
+	display: inline-block !important;
+}
