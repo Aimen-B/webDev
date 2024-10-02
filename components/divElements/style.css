@@ -1,0 +1,73 @@
+.container{
+
+
+}
+
+.eContainer{
+	display: flex;
+	height: 60vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+.myElement {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:6px;
+	border:3px solid #ff0000;
+	height: 60px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:12px 29px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myElement:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+
+.demo{
+	background-color: blue;
+	width: 400px;
+	height: 400px;
+}
+
+
+.fields-container{
+	display: grid;
+	
+}
+.field{
+	margin: 10px;
+	font-size: 1.3em;
+	border: 3px solid black;
+	padding: 10px;
+}
+.field>input{
+	margin: 10px;
+	font-size: 1.3em;
+	width: 150px;
+}
+.center{
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.button{
+	padding: 10px;
+	font-size: 1.2em;
+	background-color: #00ffff;
+	border: 3px solid #182711;
+	cursor: pointer;
+}
+
+        
